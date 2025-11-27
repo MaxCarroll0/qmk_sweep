@@ -1,1 +1,4 @@
+SRC += sm_td.c
+
+CONVERT_TO = rp2040_ce
 DEFERRED_EXEC_ENABLE = yes

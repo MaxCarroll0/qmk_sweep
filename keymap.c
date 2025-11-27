@@ -28,7 +28,7 @@ enum layers {
 
 enum hrms {
     // Left hand base layer
-    HRM_C = SAFE_RANAGE,
+    HRM_C = SAFE_RANGE,
     HRM_R,
     HRM_S,
     HRM_T,
@@ -38,7 +38,7 @@ enum hrms {
     HRM_E,
     HRM_I,
     HRM_A,
-}
+};
 
 // Home Row Mods
 smtd_resolution on_smtd_action(uint16_t keycode, smtd_action action, uint8_t tap_count) {

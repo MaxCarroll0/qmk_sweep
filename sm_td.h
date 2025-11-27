@@ -590,8 +590,8 @@ if (smtd_active_states_size == 0) { SMTD_DEBUG("## %s", ""); SMTD_DEBUG("## ## #
 
     #define RETURN_LAYER_NOT_SET 13
 
-    static uint8_t return_layer = RETURN_LAYER_NOT_SET;
-    static uint8_t return_layer_cnt = 0;
+    __attribute__((unused)) static uint8_t return_layer = RETURN_LAYER_NOT_SET;
+    __attribute__((unused)) static uint8_t return_layer_cnt = 0;
 
     void avoid_unused_variable_on_compile(void *ptr);
 
